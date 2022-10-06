@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Urna de voto</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="/imagens/bandeira-brasil.jpg" alt="bandeira-brasil">
+            <a class="ancora" href="">Sobre nós</a>
+            <a class="ancora" href="https://resultados.tse.jus.br/oficial/app/index.html#/eleicao/resultados"
+                target="_blank">Eleiçoes 2022</a>
+            <a class="ancora"
+                href="https://www.tre-ms.jus.br/eleicoes/eleicoes-anteriores/resultado-das-eleicoes-anteriores"
+                target="_blank">Eleições
+                passadas</a>
+            <a class="ancora" href="">Contato</a>
+
+            <select name="" id="list1">
+                <option value="">De qual país esta votando?</option>
+                <option value="">Portugal</option>
+                <option value="">Espanha</option>
+                <option value="">Eua</option>
+                <option value="">Inglaterra</option>
+                <option value="">Japão</option>
+                <option value="">Outro</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <div class="maindiv">
+            <div class="title">
+                <h2 class="candidatos">Simulador de votos à presidência do Brasil</h2>
+            </div>
+            <div class="nomecandidato">
+                <p>Candidato: Lula (PT) - 13 </p>
+                <p>Candidato: Bolsonaro (PL) - 22</p>
+                <p>Candidato: Ciro Gomes (PDT) - 12 </p>
+                <p>Candidato: Simone Tebet (MDB) - 15</p>
+                <p>Candidato: Soraya Thronicke (União Brasil) - 44</p>
+                <p>Candidato: Luiz Felipe dAvila (Novo) - 30 </p>
+                <select name="" id="list2">
+                    <option value="">Outro</option>
+                    <option value="">Padre Kelmon - 14</option>
+                    <option value="">José Maria Eymael - 27</option>
+                    <option value="">Vera Lúcia - 16</option>
+                </select>
+            </div>
+
+            <div class="mainform">
+                Digite o nome ou número do seu candidato: <input type="text" id="candidato">
+                <input type="button" value="Confirma" id="confirma">
+            </div>
+
+            <div id="res"></div>
+        </div>
+
+        <footer class="rodape">
+            <div class="div-imgs">
+                <h3 class="text-social">Nos siga em nosssas redes sociais:</h3>
+                <a href="https://www.instagram.com/" target="_blank"><img class="redes-sociais"
+                        src="imagens/instagram.jpg" alt="instagram"></a>
+                <a href="https://pt-br.facebook.com/" target="_blank"><img class="redes-sociais"
+                        src="imagens/facebook.png" alt="facebook"></a>
+                <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank"><img class="redes-sociais"
+                        src="imagens/whatsapp.png" alt="whatsapp"></a>
+            </div>
+        </footer>
+
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
